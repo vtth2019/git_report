@@ -1,0 +1,44 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "hosobacsigiadinh",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "mabenhnhan",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "hoten",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tuoi",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "diachi",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sodienthoai",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "mahoso",
+            "fieldType": "Integer"
+        }
+    ],
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "benh_nhan",
+    "databaseType": "mongodb",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "hosobacsigiadinh"
+}

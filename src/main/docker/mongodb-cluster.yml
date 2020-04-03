@@ -1,0 +1,16 @@
+version: '2'
+services:
+  hosobacsigiadinh-mongodb:
+    image: mongo:4.2.3
+    ports:
+      - '27017:27017'
+    command: mongos --configdb hosobacsigiadinh-mongodb-config
+  hosobacsigiadinh-mongodb-node:
+    build:
+      context: .
+      dockerfile: mongodb/MongoDB.Dockerfile
+    command: mongod --replSet rs1 --noprealloc --smallfiles
+  hosobacsigiadinh-mongodb-config:
+    image: mongo:4.2.3
+    container_name: hosobacsigiadinh-mongodb-config
+    command: mongod --noprealloc --smallfiles --configsvr --dbpath /data/db

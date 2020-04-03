@@ -1,0 +1,63 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "hosobacsigiadinh",
+    "relationships": [
+        {
+            "relationshipName": "benhNhan",
+            "otherEntityName": "benhNhan",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "mabenhnhan",
+            "otherEntityRelationshipName": "thongTinKhamBenh"
+        },
+        {
+            "relationshipName": "baoHiemYTe",
+            "otherEntityName": "baoHiemYTe",
+            "relationshipType": "one-to-one",
+            "otherEntityField": "mathebaohiemyte",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "baoHiemYTe"
+        },
+        {
+            "relationshipName": "bacSi",
+            "otherEntityName": "bacSi",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "mabacsi",
+            "otherEntityRelationshipName": "thongTinKhamBenh"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "masokhambenh",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "ngaykham",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "noikham",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ngaytaikham",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "lankham",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "chandoanbenh",
+            "fieldType": "String"
+        }
+    ],
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "thong_tin_kham_benh",
+    "databaseType": "mongodb",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "hosobacsigiadinh"
+}

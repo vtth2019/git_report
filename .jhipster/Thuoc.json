@@ -1,0 +1,36 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "hosobacsigiadinh",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "tenthuoc",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "loaithuoc",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "hoatchat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "hamluong",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nuocsanxuat",
+            "fieldType": "String"
+        }
+    ],
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "thuoc",
+    "databaseType": "mongodb",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "hosobacsigiadinh"
+}

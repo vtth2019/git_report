@@ -1,0 +1,47 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "hosobacsigiadinh",
+    "relationships": [
+        {
+            "relationshipName": "sokhambenh",
+            "otherEntityName": "thongTinKhamBenh",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "masokhambenh",
+            "otherEntityRelationshipName": "toaThuoc"
+        },
+        {
+            "relationshipName": "bacSi",
+            "otherEntityName": "bacSi",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "mabacsi",
+            "otherEntityRelationshipName": "toaThuoc"
+        },
+        {
+            "relationshipName": "thuoc",
+            "otherEntityName": "thuoc",
+            "relationshipType": "many-to-many",
+            "otherEntityField": "tenthuoc",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "thuoc"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "chandoanbenh",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lieuluong",
+            "fieldType": "String"
+        }
+    ],
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "toa_thuoc",
+    "databaseType": "mongodb",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "hosobacsigiadinh"
+}

@@ -1,0 +1,32 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "hosobacsigiadinh",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "mathebaohiemyte",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "noidangky",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tungay",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "denngay",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "bao_hiemyte",
+    "databaseType": "mongodb",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "hosobacsigiadinh"
+}

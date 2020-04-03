@@ -1,0 +1,44 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "hosobacsigiadinh",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "mabacsi",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "hoten",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "gioitinh",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ngaysinh",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "noilamviec",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "chuyenkhoa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "giayphephanhnghe",
+            "fieldType": "String"
+        }
+    ],
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "bac_si",
+    "databaseType": "mongodb",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "hosobacsigiadinh"
+}

@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "vn.vnpt.bacsigiadinh",
+      "nativeLanguage": "vi"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "microservice",
+    "baseName": "hosobacsigiadinh",
+    "packageName": "vn.vnpt.bacsigiadinh",
+    "packageFolder": "vn/vnpt/bacsigiadinh",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MmY1ZWJmM2ViN2I4Y2FjNDI3NmU0MDJjYWZjNTZkOThmM2VmMDdjYzNmNmMxNDY3Y2EyOTk1MDUxMTNmNzExMjViM2Q3NTViZjcwMTFkMjExZjQzOGQxMzk0M2YxNDZkN2EyZTMzM2QyNmJmY2MwMzY4NjQ4ZWYyMGFlOTRhOWY=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1585475043796,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "vi",
+    "languages": ["vi", "en"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
